@@ -13,14 +13,11 @@
 // console.log("Cograts!! you guessed it correctly! or you gave up!");
 
 
-// let heroes = [["superman", "batman", "wonder woman"], ["spiderman", "ironman", "thor"]];
-
-// for(list of heroes)
-// {
-//     // console.log(list);
-//     for(name of list)
-//     {
-//         console.log(name);
+// let heroes = [["superman", "batman", "thor"], ["spiderman", "wonder woman", "flash"]];
+// for (let i=0; i<heroes.length; i++) {
+//     console.log(`List #${i}`);
+//     for (let j=0; j<heroes[i].length; j++) {
+//         console.log(heroes[i][j]);
 //     }
 // }
 
@@ -28,6 +25,9 @@
 
 
 
+
+
+// TO DO LIST --------------------------------------------->
 
 // let todo = [];
 // let req = prompt("Please Enter your request");
@@ -79,6 +79,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+// ASSIGNMENT QUESTION ANSWERS ---------------------------------------->
+
 // let arr = [1,2,3,4,5,6,2,3];
 // let num = 2;
 // for(let i=0; i<arr.length; i++)
@@ -100,6 +112,9 @@
 // }
 // console.log(`The number of digits in ${numbercopy} is ${count}`)
 
+
+
+
 // let sum = 0;
 // for(let i=0; i<count; i++)
 // {
@@ -107,6 +122,8 @@
 //     numbercopy = Math.floor(numbercopy/10);
 // }
 // console.log(`The sum of the digits are ${sum}`);
+
+
 
 
 
@@ -121,11 +138,15 @@
 
 
 
-let arr = [1,2,3,4,5,6,2,3];
+// let arr = [1,2,3,4,5,6,2,3];
 
-let largest = -1;
-for(let i=0; i<arr.length; i++)
-{
-    if(arr[i]>largest) largest = arr[i];
-}
-console.log(largest);
+// let largest = -1;
+// for(let i=0; i<arr.length; i++)
+// {
+//     if(arr[i]>largest) largest = arr[i];
+// }
+// console.log(largest);
+
+
+
+
