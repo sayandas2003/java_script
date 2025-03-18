@@ -73,7 +73,26 @@
 // console.log(`your original string is ${str} & the trimmed string is ${str.trim()}`);
 
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let element = Number(prompt("Enter your element: "));
-if(arr.indexOf(element)!=-1) console.log("element found!");
-else console.log("element not found!");
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let element = Number(prompt("Enter your element: "));
+// if(arr.indexOf(element)!=-1) console.log("element found!");
+// else console.log("element not found!");
+
+
+
+
+let arr = [7, 9, 0, -2];
+let n = 3;
+for (let i=0; i<n; i++) {
+    console.log(arr[i]);
+}
+
+let arr1 = [7, 9, 0, -2];
+let n1 = 3;
+for (let i=arr1.length - 1; i>=arr1.length -n; i--) {
+    console.log(arr[i]);
+}
+
+let string1 = "";
+if(string1.length > 0) console.log("not blank");
+else console.log("blank");
