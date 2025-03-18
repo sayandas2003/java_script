@@ -97,9 +97,12 @@
 
 let num1 = prompt("Enter your first number: ");
 let num2 = prompt("Enter your second number: ");
-let lastindexnum1 = num1.size - 1;
-let laastindexnum2 = num2.size - 1;
+let lastindexnum1 = num1.length - 1;
+let laastindexnum2 = num2.length - 1;
 if(num1[lastindexnum1] === num2[laastindexnum2])
 {
     console.log("Yes they have the same last digit");
+}
+else {
+    console.log("no they dont have same last digit");
 }
