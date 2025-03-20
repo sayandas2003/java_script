@@ -174,7 +174,7 @@
 //         console.log(this.message);
 //     }
 // };
-// setTimeout(object.logMessage.bind(object), 1000);
+// setTimeout(object.logMessage.bind(object), 1000); 
 // setTimeout(object.logMessage, 1000);
 
 
