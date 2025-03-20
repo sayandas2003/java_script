@@ -169,6 +169,7 @@ let ans = oddeventest("odd");
 
 const calculator = 
 {
+    num:5,
     add: function (a,b)
     {
         return a+b;
