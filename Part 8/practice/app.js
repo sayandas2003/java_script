@@ -31,3 +31,12 @@
 // console.log(arr.map((el)=>el.toUpperCase()));
 
 
+// function doubleAndReturnArgs(arr, ...args) {
+//     return [...arr, ...args.map((el)=>el*2)];   
+// }
+
+const doubleAndReturnArgs = (arr, ...args) => [
+    ...arr, ...args.map((el) => el*2)
+];
+
+const mergeObjects = (obj1, obj2)=>{ return {...obj1, ...obj2}};
