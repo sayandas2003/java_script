@@ -37,3 +37,31 @@ function generaterandomcolor()
     let color = `rgb(${red}, ${green}, ${blue})`;
     return color;
 }
+
+
+btn.onmouseenter = function() {console.log("mouse entered");}
+
+
+let btn2 = document.createElement("button");
+btn2.innerText = "click mee babayy";
+let body = document.querySelector('body');
+body.append(btn2);
+
+btn2.addEventListener("click", ()=>{
+    btn2.style.backgroundColor = "green";
+})
+
+
+
+
+let inp2 = document.createElement('input');
+inp2.placeholder = "Enter your name";
+let h2 = document.createElement('h2');
+
+document.body.append(h2, inp2);
+
+inp2.addEventListener("input", function () {
+    // Allow only letters (A-Z, a-z) and spaces
+    let filteredText = inp2.value.replace(/[^a-zA-Z ]/g, ""); 
+    h2.innerText = filteredText; // Update heading dynamically
+});
