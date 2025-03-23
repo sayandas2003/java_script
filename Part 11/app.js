@@ -202,31 +202,31 @@
 
 // no catch as reject kabhi hoga hi nhi unless syntax error
 // no reject block too
-h1 = document.querySelector("h1");
+// h1 = document.querySelector("h1");
 
-function changeColor(color, delay)
-{
-    return new Promise((resolve, reject)=>{
-        setTimeout(() => {
-            h1.style.color = color;
-            resolve("color changed!");
-        }, delay);
-    })
-}
+// function changeColor(color, delay)
+// {
+//     return new Promise((resolve, reject)=>{
+//         setTimeout(() => {
+//             h1.style.color = color;
+//             resolve("color changed!");
+//         }, delay);
+//     })
+// }
 
-changeColor("red", 1000)
-.then((result)=>{
-    console.log(result);
-    return changeColor("blue", 1000);
-})
-.then((result)=>{
-    console.log(result);
-    return changeColor("green", 1000);
-})
-.then((result)=>{
-    console.log(result);
-    return changeColor("yellow", 1000);
-})
+// changeColor("red", 1000)
+// .then((result)=>{
+//     console.log(result);
+//     return changeColor("blue", 1000);
+// })
+// .then((result)=>{
+//     console.log(result);
+//     return changeColor("green", 1000);
+// })
+// .then((result)=>{
+//     console.log(result);
+//     return changeColor("yellow", 1000);
+// })
 // changeColor("red", 1000, ()=> {
 //     changeColor("orange", 1000, ()=>{
 //         changeColor("green", 1000);
